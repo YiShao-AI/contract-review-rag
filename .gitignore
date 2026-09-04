@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+.eval-data/
+eval/results.local.json
+.env
+*.log
+.DS_Store
+node_modules/
+playwright-report/
+test-results/

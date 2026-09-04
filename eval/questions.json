@@ -1,0 +1,156 @@
+[
+    {
+        "id": "Q01",
+        "category": "address",
+        "question": "What is the street address of the Mount Pleasant Laundry ATM site?",
+        "expected_doc": "EATM-COM-0024_Mount_Pleasant_Laundry",
+        "expected_phrase": "3167 Mount Pleasant Street NW"
+    },
+    {
+        "id": "Q02",
+        "category": "compensation",
+        "question": "What commission rate does Mount Pleasant Laundry receive?",
+        "expected_doc": "EATM-COM-0024_Mount_Pleasant_Laundry",
+        "expected_phrase": "15.5"
+    },
+    {
+        "id": "Q03",
+        "category": "contact",
+        "question": "Who is the notice contact for Mount Pleasant Laundry?",
+        "expected_doc": "EATM-COM-0024_Mount_Pleasant_Laundry",
+        "expected_phrase": "Lucia Torres"
+    },
+    {
+        "id": "Q04",
+        "category": "address",
+        "question": "What is the street address of the Alexandria Suds Laundry ATM site?",
+        "expected_doc": "EATM-COM-0018_Alexandria_Suds_Laundry",
+        "expected_phrase": "3821 Mount Vernon Avenue"
+    },
+    {
+        "id": "Q05",
+        "category": "compensation",
+        "question": "What commission rate does Alexandria Suds Laundry receive?",
+        "expected_doc": "EATM-COM-0018_Alexandria_Suds_Laundry",
+        "expected_phrase": "15"
+    },
+    {
+        "id": "Q06",
+        "category": "contact",
+        "question": "Who is the notice contact for Alexandria Suds Laundry?",
+        "expected_doc": "EATM-COM-0018_Alexandria_Suds_Laundry",
+        "expected_phrase": "Grace Nguyen"
+    },
+    {
+        "id": "Q07",
+        "category": "address",
+        "question": "What is the street address of the Georgia Avenue Coin Laundry ATM site?",
+        "expected_doc": "EATM-FIX-0003_Georgia_Avenue_Coin_Laundry",
+        "expected_phrase": "5722 Georgia Avenue NW"
+    },
+    {
+        "id": "Q08",
+        "category": "contact",
+        "question": "Who is the notice contact for Georgia Avenue Coin Laundry?",
+        "expected_doc": "EATM-FIX-0003_Georgia_Avenue_Coin_Laundry",
+        "expected_phrase": "Fatima Johnson"
+    },
+    {
+        "id": "Q09",
+        "category": "compensation",
+        "question": "What monthly amount is paid to Georgia Avenue Coin Laundry?",
+        "expected_doc": "EATM-FIX-0003_Georgia_Avenue_Coin_Laundry",
+        "expected_phrase": "275.00"
+    },
+    {
+        "id": "Q10",
+        "category": "address",
+        "question": "What is the street address of the Capitol Hill Service Station ATM site?",
+        "expected_doc": "EATM-FIX-0002_Capitol_Hill_Service_Station",
+        "expected_phrase": "1301 Pennsylvania Avenue SE"
+    },
+    {
+        "id": "Q11",
+        "category": "contact",
+        "question": "Who is the notice contact for Capitol Hill Service Station?",
+        "expected_doc": "EATM-FIX-0002_Capitol_Hill_Service_Station",
+        "expected_phrase": "George Whitaker"
+    },
+    {
+        "id": "Q12",
+        "category": "compensation",
+        "question": "What monthly amount is paid to Capitol Hill Service Station?",
+        "expected_doc": "EATM-FIX-0002_Capitol_Hill_Service_Station",
+        "expected_phrase": "400.00"
+    },
+    {
+        "id": "Q13",
+        "category": "address",
+        "question": "What is the street address of the College Park Wine Cellar ATM site?",
+        "expected_doc": "EATM-COM-0015_College_Park_Wine_Cellar",
+        "expected_phrase": "7312 Baltimore Avenue"
+    },
+    {
+        "id": "Q14",
+        "category": "compensation",
+        "question": "What commission rate does College Park Wine Cellar receive?",
+        "expected_doc": "EATM-COM-0015_College_Park_Wine_Cellar",
+        "expected_phrase": "17.5"
+    },
+    {
+        "id": "Q15",
+        "category": "contact",
+        "question": "Who is the notice contact for College Park Wine Cellar?",
+        "expected_doc": "EATM-COM-0015_College_Park_Wine_Cellar",
+        "expected_phrase": "Elena Rivera"
+    },
+    {
+        "id": "Q16",
+        "category": "address",
+        "question": "What is the street address of the Arlington Express Mart ATM site?",
+        "expected_doc": "EATM-COM-0016_Arlington_Express_Mart",
+        "expected_phrase": "2520 Columbia Pike"
+    },
+    {
+        "id": "Q17",
+        "category": "compensation",
+        "question": "What commission rate does Arlington Express Mart receive?",
+        "expected_doc": "EATM-COM-0016_Arlington_Express_Mart",
+        "expected_phrase": "16"
+    },
+    {
+        "id": "Q18",
+        "category": "contact",
+        "question": "Who is the notice contact for Arlington Express Mart?",
+        "expected_doc": "EATM-COM-0016_Arlington_Express_Mart",
+        "expected_phrase": "Andre Coleman"
+    },
+    {
+        "id": "Q19",
+        "category": "address",
+        "question": "What is the street address of the Eastern Market Grocery ATM site?",
+        "expected_doc": "EATM-COM-0006_Eastern_Market_Grocery",
+        "expected_phrase": "717 8th Street SE"
+    },
+    {
+        "id": "Q20",
+        "category": "compensation",
+        "question": "What commission rate does Eastern Market Grocery receive?",
+        "expected_doc": "EATM-COM-0006_Eastern_Market_Grocery",
+        "expected_phrase": "17.5"
+    },
+    {
+        "id": "Q21",
+        "category": "contact",
+        "question": "Who is the notice contact for Eastern Market Grocery?",
+        "expected_doc": "EATM-COM-0006_Eastern_Market_Grocery",
+        "expected_phrase": "Marcus Lee"
+    },
+    {
+        "id": "Q22",
+        "category": "address",
+        "question": "What is the street address of the Crystal City Vape & Gifts ATM site?",
+        "expected_doc": "EATM-COM-0017_Crystal_City_Vape_and_Gifts",
+        "expected_phrase": "1725 Richmond Highway"
+    }
+]

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Product and business-analysis notes for a source-grounded RAG knowledge system.">
+  <title>Product &amp; Analysis Notes — Contract-Review RAG</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080e15;--paper:#101a24;--surface:#15212d;--ink:#e7edf5;--muted:#aab6c4;--line:#2b3a4a;--teal:#55c9c2;--teal-soft:#173331;--blue:#213c59;--gold:#e0aa4a;--white:#fff}
+    *{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--bg);font:16px/1.58 Aptos,"Segoe UI",Arial,sans-serif}a{color:var(--teal);text-underline-offset:3px}.wrap{width:min(1040px,calc(100% - 40px));margin:0 auto}.nav{border-bottom:1px solid var(--line)}.nav-inner{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:20px}.brand{color:var(--white);font-weight:850;text-decoration:none}.nav-links{display:flex;gap:18px;font-size:.88rem;font-weight:750}.nav-links a{text-decoration:none}.hero{padding:82px 0 58px}.eyebrow{color:var(--teal);font-size:.76rem;font-weight:850;letter-spacing:.16em;text-transform:uppercase}h1,h2,h3,p{margin-top:0}h1,h2,h3{color:var(--white);line-height:1.1}h1{max-width:850px;margin:13px 0 18px;font-size:clamp(2.8rem,6vw,5rem);letter-spacing:-.05em}h2{margin:0 0 18px;font-size:clamp(1.9rem,4vw,3rem);letter-spacing:-.035em}h3{font-size:1.08rem}.lede{max-width:820px;color:var(--muted);font-size:1.18rem}.section{padding:64px 0;border-top:1px solid var(--line)}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{padding:21px;border:1px solid var(--line);border-radius:11px;background:var(--surface)}.card p:last-child,.card ul:last-child{margin-bottom:0}.label{display:block;margin-bottom:7px;color:var(--teal);font-size:.75rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase}.role{margin-top:17px;padding:17px 19px;border-left:5px solid var(--teal);background:var(--teal-soft)}
+    table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:12px 13px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--white);background:var(--blue);font-size:.75rem;letter-spacing:.05em;text-transform:uppercase}td:first-child{color:var(--white);font-weight:800}.flow{margin:20px 0;padding:21px;border:1px solid var(--line);border-radius:10px;color:var(--muted);background:var(--surface);font:14px/1.75 Consolas,"Courier New",monospace;white-space:pre-wrap}.flow strong{color:var(--teal)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;overflow:hidden;border:1px solid var(--line);border-radius:11px;background:var(--line)}.metric{padding:20px;background:var(--paper)}.metric strong{display:block;color:var(--teal);font-size:1.7rem}.metric span{display:block;margin-top:6px;color:var(--muted);font-size:.88rem}.checklist{list-style:none;margin:0;padding:0}.checklist li{position:relative;padding:10px 0 10px 28px;border-bottom:1px solid var(--line)}.checklist li:before{content:"✓";position:absolute;left:2px;color:var(--teal);font-weight:900}.checklist li:last-child{border-bottom:0}.note{padding:17px 19px;border-left:5px solid var(--gold);background:#302819}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.button{display:inline-flex;padding:10px 15px;border:1px solid var(--teal);border-radius:8px;color:var(--teal);font-weight:850;text-decoration:none}.button.primary{color:#071018;background:var(--teal)}footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.84rem}
+    @media(max-width:760px){.grid2,.grid3,.metrics{grid-template-columns:1fr}.nav-links a:first-child{display:none}.hero{padding-top:62px}}
+  </style>
+</head>
+<body>
+  <header class="nav"><nav class="nav-inner wrap" aria-label="Project navigation"><a class="brand" href="./">Contract-Review RAG</a><div class="nav-links"><a href="./demo/">Walkthrough</a><a href="https://github.com/YiShao-AI/contract-review-rag">Source code</a></div></nav></header>
+
+  <main>
+    <section class="hero"><div class="wrap"><div class="eyebrow">Product strategy · business analysis · validation</div><h1>Product &amp; analysis notes</h1><p class="lede">How a repeated knowledge-access problem becomes a source-grounded workflow: stakeholder need, decision, requirements, data readiness, system design, and evaluation.</p><div class="actions"><a class="button primary" href="./demo/">Open walkthrough</a><a class="button" href="https://github.com/YiShao-AI/contract-review-rag">View implementation</a></div></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Problem framing</div><h2>Start with the decision, not the chatbot</h2><div class="grid3">
+      <div class="card"><span class="label">Operating need</span><p>Institutional knowledge is valuable only when the person handling a live question can find the right resolution and verify it quickly.</p></div>
+      <div class="card"><span class="label">Target decision</span><p>Which prior resolution or contract clause applies, what evidence supports it, and does the user have enough support to act?</p></div>
+      <div class="card"><span class="label">Definition of done</span><p>A verified answer, a correction, or an informed escalation—not merely generated text.</p></div>
+    </div><div class="role"><strong>My role:</strong> stakeholder discovery, workflow and data analysis, requirements, retrieval and citation design, implementation, evaluation, and rollout planning.</div></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Two operating applications</div><h2>The same retrieval pattern, applied to different decisions</h2><div class="grid2">
+      <article class="card"><span class="label">Internal customer support assistant</span><h3>Make repeated resolutions available to every shift</h3><p>More than five years of support email threads and recorded calls held high-value institutional knowledge. Because customer questions repeated, past resolutions could shorten live lookup and reduce dependence on the memory of specific experienced agents.</p><p>The workflow added each new ticket and call to the knowledge base and returned source-linked answers through the company’s established messaging platform.</p></article>
+      <article class="card"><span class="label">Contract QA assistant</span><h3>Connect operating questions to the exact clause</h3><p>A status board could show whether a contract was active, but it could not answer what the agreement said about revenue share, renewal, notice contacts, or deadlines.</p><p>The public implementation demonstrates ingestion, OCR, hybrid retrieval, source citations, and derived notice-deadline logic over a contract portfolio.</p></article>
+    </div></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Requirements</div><h2>Observable behavior the system must provide</h2><table>
+      <thead><tr><th>User need</th><th>Acceptance criterion</th></tr></thead><tbody>
+        <tr><td>Ask in plain language</td><td>Semantic similarity handles paraphrase; keyword retrieval preserves exact names, amounts, clauses, codes, and jurisdictions.</td></tr>
+        <tr><td>Verify before acting</td><td>Every displayed citation resolves to a retrieved chunk and retains the original document, page, and section context.</td></tr>
+        <tr><td>Handle mixed source files</td><td>PDF, DOCX, TXT, scanned pages, and filled-form overlays produce usable text without losing source identity.</td></tr>
+        <tr><td>Know when to escalate</td><td>Weak, conflicting, or out-of-scope evidence routes clarification or human review rather than fabricated completion.</td></tr>
+        <tr><td>Keep knowledge current</td><td>New content follows the same ingestion, enrichment, indexing, and source-version path.</td></tr>
+        <tr><td>Respect the deployment boundary</td><td>Local inference is supported; external-capable modes follow the approved processing configuration and masking controls.</td></tr>
+      </tbody></table></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Current and future workflow</div><h2>Replace search-and-escalate with retrieve-and-verify</h2>
+      <div class="flow"><strong>BEFORE</strong>  question → guess keywords → search long threads / recordings / files → interpret context → interrupt an expert if unclear
+
+<strong>OPERATING WORKFLOW</strong>  question → hybrid retrieval → source-grounded answer → open supporting passage → act, correct, or escalate with context</div>
+      <div class="flow"><strong>KNOWLEDGE PIPELINE</strong>  email / call / PDF / DOCX / scan → transcribe or OCR → clean and enrich → clause-aware chunks → vector + keyword indexes → live retrieval</div>
+    </div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Data readiness</div><h2>Make the corpus retrievable before asking it questions</h2><table>
+      <thead><tr><th>Data issue</th><th>Why it matters</th><th>Design response</th></tr></thead><tbody>
+        <tr><td>Long, repetitive support history</td><td>Entire threads and calls are too noisy to retrieve as-is.</td><td>Distill question, resolution, state, category, and date while retaining the original source link.</td></tr>
+        <tr><td>Scans and filled forms</td><td>Important entered values may be absent from the document text layer.</td><td>Use text extraction plus OCR and merge recovered overlay content into the source representation.</td></tr>
+        <tr><td>Exact terms inside natural language</td><td>Vector similarity can miss a precise identifier; keyword search can miss paraphrase.</td><td>Fuse dense-vector and FTS5 candidates before generation.</td></tr>
+        <tr><td>Stale or conflicting sources</td><td>A well-written answer can still be wrong if it uses an obsolete resolution.</td><td>Retain source version and owner; route correction and stale-source review into maintenance.</td></tr>
+      </tbody></table></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Design decisions</div><h2>Choices that connect technical behavior to business use</h2><div class="grid2">
+      <div class="card"><h3>Hybrid retrieval over model fine-tuning</h3><p>Knowledge changes continuously and users need traceability. Retrieval keeps new sources available without retraining and connects the answer to current evidence.</p></div>
+      <div class="card"><h3>Source citations as a first-class feature</h3><p>Verification is part of the operating decision. The source panel and document context are therefore product behavior, not an afterthought.</p></div>
+      <div class="card"><h3>Existing channel over a new support UI</h3><p>Meeting distributed agents in the company’s established workflow reduced training and adoption friction.</p></div>
+      <div class="card"><h3>Local-first with deployment flexibility</h3><p>The corpus and inference can remain local; a configurable hosted endpoint remains available where the approved deployment permits it.</p></div>
+    </div></div></section>
+
+    <section class="section"><div class="wrap"><div class="eyebrow">Evaluation</div><h2>Measure retrieval, citations, and business use separately</h2><div class="metrics">
+      <div class="metric"><strong>22 / 22</strong><span>Expected contracts appeared in the retrieved results.</span></div><div class="metric"><strong>20 / 22</strong><span>Retrieval reached the expected supporting passage.</span></div><div class="metric"><strong>8 / 8</strong><span>Citation labels resolved to their intended chunks.</span></div>
+    </div><div class="grid2" style="margin-top:16px"><div class="card"><h3>What the current results show</h3><ul class="checklist"><li>The retrieval path consistently routes labeled questions to the intended documents.</li><li>Clause-level passage retrieval is strong enough to support the interactive source workflow.</li><li>Citation labels remain connected to the evidence shown to the user.</li></ul></div><div class="card"><h3>Next validation layer</h3><ul><li>Expand locked cases across unanswerable, conflicting, stale, and high-risk questions.</li><li>Collect user feedback at the answer level and review misses by category.</li><li>Track verified lookup time, escalation, adoption, corrections, and incidents.</li></ul></div></div>
+      <div class="note" style="margin-top:18px"><strong>Public data:</strong> The walkthrough uses non-confidential agreements with fictional parties, terms, and values. Employer source code and confidential records are excluded.</div>
+    </div></section>
+  </main>
+  <footer><div class="wrap">Yi Shao · Contract-Review RAG · <a href="./">project page</a> · <a href="./demo/">walkthrough</a> · <a href="https://github.com/YiShao-AI/contract-review-rag">source code</a></div></footer>
+</body>
+</html>
