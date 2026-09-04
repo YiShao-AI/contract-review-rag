@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "RAG-CONCURRENCY-EXPLORATORY-20260904",
+  "status": "failed",
+  "scope": {
+    "documents": 300,
+    "chunks_per_document": 4,
+    "chunks": 1200,
+    "planned_searches": 600,
+    "workers": 20,
+    "network_or_model_calls": 0
+  },
+  "failure": {
+    "type": "sqlite3.InterfaceError",
+    "message": "bad parameter or other API misuse",
+    "location": "app/store.py::_chunk_row",
+    "cause": "Concurrent retrieval requests shared one SQLite connection across worker threads."
+  },
+  "correction": {
+    "design": "Thread-local read connections with WAL and busy timeout; one serialized writer connection.",
+    "regression_test": "tests/test_concurrent_retrieval.py",
+    "verification_run": "reliability-run-20260904.json"
+  }
+}

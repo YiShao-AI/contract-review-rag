@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "run_id": "RAG-RELIABILITY-20260904",
+  "executed_at": "2026-09-04T08:06:20.794969+00:00",
+  "scope": {
+    "statement": "Isolated local storage/retrieval test using deterministic fictional records; excludes OCR, network, embedding provider, and answer-generation latency.",
+    "documents": 500,
+    "chunks_per_document": 4,
+    "chunks": 2000,
+    "searches": 1000,
+    "workers": 25,
+    "vector_dimensions": 96,
+    "seed": 20260904
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "logical_cpu_count": 16,
+    "source_fingerprint_sha256": "3182fa2f10667add316bd134b15c9fe38b873c1882477457cfa4723cfa880061"
+  },
+  "retrieval": {
+    "completed": 1000,
+    "expected_document_top1": 1000,
+    "exceptions": 0,
+    "exception_types": {},
+    "wall_seconds": 1.482,
+    "throughput_searches_per_second": 674.97,
+    "latency_ms": {
+      "p50": 36.04,
+      "p95": 46.12,
+      "p99": 69.13,
+      "max": 76.14
+    }
+  },
+  "restart": {
+    "sample_searches": 50,
+    "expected_document_top1": 50,
+    "ready": true
+  },
+  "deletion": {
+    "propagated": true,
+    "ready_after_delete": true,
+    "remaining_documents": 499,
+    "remaining_chunks": 1996,
+    "remaining_vectors": 1996
+  },
+  "corrupt_index_recovery": {
+    "quarantined": true,
+    "readiness_failed_closed": true,
+    "restored_from_last_good_index": true,
+    "ready_after_restore": true
+  },
+  "acceptance_gates": {
+    "zero_search_exceptions": true,
+    "exact_locator_top1": true,
+    "p95_under_500_ms_local_retrieval": true,
+    "throughput_at_least_20_searches_per_second": true,
+    "restart_preserves_readiness_and_results": true,
+    "deletion_propagates": true,
+    "corrupt_index_quarantines_and_restores": true
+  },
+  "passed": true
+}

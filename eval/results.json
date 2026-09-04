@@ -1,0 +1,144 @@
+{
+    "evaluation": "retrieval_only",
+    "question_set": "questions.json",
+    "manifest": "manifest.json",
+    "aggregate": {
+        "questions": 22,
+        "document_hits": 22,
+        "passage_hits": 20
+    },
+    "results": [
+        {
+            "id": "Q01",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q02",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q03",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q04",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q05",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": false
+        },
+        {
+            "id": "Q06",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q07",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q08",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q09",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q10",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q11",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q12",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q13",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q14",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q15",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q16",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q17",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q18",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q19",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q20",
+            "category": "compensation",
+            "document_hit": true,
+            "passage_hit": false
+        },
+        {
+            "id": "Q21",
+            "category": "contact",
+            "document_hit": true,
+            "passage_hit": true
+        },
+        {
+            "id": "Q22",
+            "category": "address",
+            "document_hit": true,
+            "passage_hit": true
+        }
+    ]
+}

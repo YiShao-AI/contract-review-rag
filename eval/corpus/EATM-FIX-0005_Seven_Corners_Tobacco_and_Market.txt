@@ -1,0 +1,199 @@
+GETCOINS
+Financial Services Kiosk - Lease Agreement
+Agreement ID: EATM-FIX-0005
+Agreement Type: Legacy Fixed-Rent Renewal
+Status: Active as of August 26, 2026
+
+This Financial Services Kiosk - Lease Agreement ("Agreement") is made as of January 5, 2017, by and between Evergreen ATM LLC, a Nevada limited liability company with its principal office at 1201 Connecticut Avenue NW, Suite 600, Washington, DC 20036, using the trade name "GetCoins" ("GetCoins"), and Seven Corners Tobacco & Market LLC ("Owner"), a Virginia limited liability company, operating Seven Corners Tobacco & Market at 6301 Arlington Boulevard, Falls Church, VA 22044 (the "Location").
+
+Witnesseth
+In consideration of the payments of the rent, charges, and fees provided herein, and the covenants and conditions set forth below, GetCoins and Owner covenant and agree as follows:
+
+Recitals
+1) GetCoins owns and operates Financial Services Kiosks in various locations and wishes to operate a Kiosk at the Location.
+2) Owner owns or leases the Location, operates the business at the Location, and wishes to lease a portion of the Location to GetCoins for placement of a kiosk (the "Kiosk") on the terms of this Agreement.
+3) GetCoins and Owner believe that this Agreement will be for their mutual benefit.
+
+Terms
+In consideration of the foregoing, the mutual promises contained herein, and other good and valuable consideration, the receipt and sufficiency of which is acknowledged, GetCoins and Owner agree as follows:
+
+1. Leased Space
+Owner leases to GetCoins the approximately 4 (four) square feet of floor space at the Location described in Exhibit A (the "Leased Space") for installing, repairing, maintaining, protecting, and operating the Kiosk and for no other purpose. The agreed placement is: Inside the main entrance, beside the staffed sales counter. Exhibit A is incorporated into this Agreement.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 1 of 12
+
+GETCOINS
+2. Rent
+This Agreement renews the parties' existing fixed-rent placement. Starting with the first calendar month of the Current Term, fixed Rent of $425.00 per month is due for the Leased Space. No transaction-based commission or revenue share is due under this Agreement.
+GetCoins will pay the fixed Rent in immediately available funds by the 10th day of each month. The fixed Rent will represent the total monthly rent payable by GetCoins to Owner for the Leased Space. This legacy compensation structure is a renewal of an existing arrangement and is not available for a new location placement.
+
+3. Term
+The original Effective Date is January 10, 2017. Each contractual term is three years. The current three-year term is the third renewal term, begins on January 10, 2026, and ends on January 9, 2029 (the "Current Term"). The Agreement remains in effect throughout the Current Term unless terminated under Section 11.
+The Agreement will automatically renew for successive additional three-year terms unless either party gives the other at least ninety (90) days' written notice of nonrenewal before the current term expires. On final termination, GetCoins will remove the Kiosk from the Location within a commercially reasonable period.
+
+4. GetCoins Responsibilities
+At its sole expense, GetCoins is responsible for the following:
+1) Installing, maintaining, repairing, protecting, replacing, and operating the Kiosk.
+2) Removing the Kiosk after final termination of this Agreement.
+3) Providing all software and hardware required to operate the Kiosk.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 2 of 12
+
+GETCOINS
+5. Owner Responsibilities
+At its sole expense, Owner is responsible for the following:
+1) Providing electrical power through a dedicated, properly grounded 110-120 volt outlet at the Location, at Owner's sole expense and without a separate utility charge.
+2) Providing approximately four square feet for the Kiosk and keeping at least two feet of clear access in front and on each service side. Products, boxes, displays, and carts must not inhibit customer use or servicing of the Kiosk.
+
+Kiosk Clearance Standard
+Asset: EVG-VA-1030
+Minimum clearance: two feet in front and on each service side.
+Products, displays, boxes, and carts must remain outside customer and service clear zones.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 3 of 12
+
+GETCOINS
+6. Access and Availability
+1) Owner will maintain and protect the Leased Space to ensure free and unfettered access by Kiosk customers and by GetCoins for installation, maintenance, repair, replacement, protection, and removal.
+2) Access to the Kiosk will be available to customers during all hours when the Location is open for business.
+3) Without notice to Owner, GetCoins may make the Kiosk temporarily unavailable for maintenance, repair, compliance, security, or replacement. Work requiring physical presence at the Location will ordinarily be performed during Owner's regular business hours.
+4) GetCoins and its agents, employees, and contractors may enter the Location during regular business hours with necessary personnel, equipment, and machinery to install, inspect, maintain, service, repair, replace, protect, or remove the Kiosk.
+
+Store hours:
+Day | Open | Close
+Monday | 9:00 AM | 10:00 PM
+Tuesday | 9:00 AM | 10:00 PM
+Wednesday | 9:00 AM | 10:00 PM
+Thursday | 9:00 AM | 10:00 PM
+Friday | 9:00 AM | 10:00 PM
+Saturday | 9:00 AM | 10:00 PM
+Sunday | 10:00 AM | 8:00 PM
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 4 of 12
+
+GETCOINS
+7. Warranties
+1) Owner warrants that it owns the Location or holds lease rights for the Location that equal or exceed the term of this Agreement and that it has authority to enter into this Agreement.
+2) Owner warrants that this Agreement and its execution will not place Owner in default under another contract, agreement, or lease.
+3) Nadia Saleh warrants that Nadia Saleh is authorized to sign for Owner and that no additional consent is required as a condition to Owner entering into this Agreement.
+4) GetCoins warrants that it owns the Kiosk.
+
+8. Confidentiality
+1) The term "Confidential Information" means nonpublic information and materials of GetCoins in any form, including the nature of this Agreement, Rent and payment information, ownership and control information, trade secrets, know-how, methods, designs, procedures, assets, transactions, processes, business strategies, software, hardware technology, financial information, internal structure, development methods, sources, and business plans. Confidential Information does not include information that becomes public without Owner's breach; is lawfully received without a confidentiality duty; was already known by Owner on a nonconfidential basis; or is independently developed without reliance on GetCoins information. A party's representatives include its directors, officers, members, employees, agents, affiliates, and professional advisers.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 5 of 12
+
+GETCOINS
+8. Confidentiality (continued)
+2) Owner will use Confidential Information only to evaluate or perform the relationship created by this Agreement and will not disclose it without GetCoins' written authorization. Owner will use at least reasonable care, limit disclosure to representatives who need the information for this Agreement, inform them of its confidential nature, and remain responsible for their compliance. Disclosure is permitted with GetCoins' prior written consent or when required by lawful process.
+3) If Owner is requested or legally compelled to disclose Confidential Information, Owner will, to the extent lawful and reasonably practicable, promptly notify GetCoins so that GetCoins may seek a protective order or waive compliance. In the absence of relief, Owner may disclose only the portion legally required.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 6 of 12
+
+GETCOINS
+9. Limitation of Liability
+1) Owner will use commercially reasonable efforts to protect the Kiosk from damage, loss, theft, or destruction and will follow reasonable location security procedures supplied by GetCoins. Except for loss caused by Owner's gross negligence or willful misconduct, GetCoins will bear the risk of damage, loss, theft, or destruction of the Kiosk and Kiosk vault cash. The Kiosk and all cash inside it remain the sole property of GetCoins.
+2) GetCoins will maintain insurance or self-insure for damage, loss, theft, or destruction of the Kiosk.
+3) Except as expressly stated in this Agreement, GetCoins makes no warranty, express, implied, or statutory, concerning the Kiosk, including merchantability or fitness for a particular purpose.
+4) GetCoins is not liable for nonperformance or delay caused by events beyond its reasonable control, including labor disturbances, riot, war, insurrection, legal authority, severe weather, road closure, transportation delay, pandemic, flood, storm, utility interruption, or other force majeure event.
+
+10. Camera/Privacy
+Owner understands that the Kiosk may capture pictures or video of a user through an integral camera. This capability supports security, anti-fraud, anti-money-laundering, identity-verification, and related compliance functions. Owner consents to GetCoins' use of the camera for those and ancillary lawful purposes and, when required, will advise customers, invitees, and guests of the camera's existence and use.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 7 of 12
+
+GETCOINS
+11. Termination
+This Agreement may be terminated by either party upon the occurrence of any of the following:
+1) The mutual written consent of the parties.
+2) A material breach by either party that continues for five (5) days after the breaching party receives written notice describing the breach.
+3) Either party filing for bankruptcy or making an assignment for the benefit of creditors.
+
+GetCoins may also terminate this Agreement at its sole option if any of the following occurs:
+1) The Kiosk records fewer than 50 completed transactions in any calendar month.
+2) The Kiosk suffers damage for which the estimated repair cost exceeds $750.00.
+3) Operation at the Location creates a material legal, regulatory, fraud, safety, or reputational risk in GetCoins' reasonable judgment.
+
+After termination, Owner is not entitled to further Rent payments for periods following the effective termination date.
+
+12. Notices
+For GetCoins: Management@Getcoins.com; 1201 Connecticut Avenue NW, Suite 600, Washington, DC 20036.
+For Owner: nadia.saleh@sevencornerstobacco.example; 6301 Arlington Boulevard, Falls Church, VA 22044.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 8 of 12
+
+GETCOINS
+13. Miscellaneous
+1) Modifications. No modification is effective unless approved in a writing signed by both parties. No oral modification is valid.
+2) Arbitration. A dispute arising from this Agreement will be resolved by binding arbitration under the commercial arbitration rules of the American Arbitration Association. The award may be enforced in a court with jurisdiction. Arbitration costs will be shared equally, and each party will pay its own attorneys' fees.
+3) Binding Effect. This Agreement binds the parties and their respective successors and permitted assigns.
+4) Governing Law. This Agreement is deemed made and executed in the State of Nevada and will be construed under Nevada substantive law, without regard to conflict-of-laws rules.
+5) Headings. Section headings are for convenience only and do not modify the substance or meaning of this Agreement.
+6) Representations. Except as expressly stated, neither party has relied on a representation or statement outside this Agreement in deciding to enter it.
+7) Drafting. The parties agree that this Agreement was drafted jointly and that each had the right and opportunity to consult legal counsel before signing.
+8) Sale or Relocation. If Owner permanently closes or sells the business, Owner will inform GetCoins at least thirty (30) days beforehand. No closing penalty applies. A sale does not transfer this Agreement unless GetCoins agrees in writing, and a new agreement may be required with the new owner.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 9 of 12
+
+GETCOINS
+By signing this Agreement, Owner acknowledges that Owner understands all provisions in this Agreement, all applicable rules and regulations for the Location and Owner's business, and all provisions of the attached exhibits, and Owner agrees to be bound by them.
+
+WHEREFORE, the parties executed this Agreement on the dates shown below as their free and voluntary act.
+
+GetCoins
+By: /s/ Jordan Mercer
+Print Name: Jordan Mercer
+Title: Managing Member
+Date: January 5, 2017
+
+Owner
+Signature: /s/ Nadia Saleh
+Print Name: Nadia Saleh
+Title: Owner
+Date: January 5, 2017
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 10 of 12
+
+GETCOINS
+Owner Information
+Full Name: Nadia Saleh
+Title: Owner
+Owner Legal Name: Seven Corners Tobacco & Market LLC
+Business Name: Seven Corners Tobacco & Market
+Address: 6301 Arlington Boulevard, Falls Church, VA 22044
+Phone Number: 703-555-0130
+E-mail Address: nadia.saleh@sevencornerstobacco.example
+
+Payment Information
+A W-9 form must be on file before payment can be issued. W-9 status: On file.
+Selected payment method: ACH electronic deposit.
+Check by mail: No
+Name of company to pay: Seven Corners Tobacco & Market LLC
+Mailing address: 6301 Arlington Boulevard, Falls Church, VA 22044
+Bank name: Potomac Union Bank
+Checking account number: 880100000030
+Routing Number: 990000030
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 11 of 12
+
+GETCOINS
+Exhibit A (Depiction and Legal Description of Leased Space)
+The Location is Seven Corners Tobacco & Market at 6301 Arlington Boulevard, Falls Church, VA 22044.
+The Leased Space totals approximately 4 (four) rentable square feet.
+Placement: Inside the main entrance, beside the staffed sales counter.
+Kiosk asset ID: EVG-VA-1030.
+The Kiosk requires a clear customer path, a two-foot service clearance, and an Owner-maintained 110-120 volt outlet.
+
+EATM-FIX-0005 | JM (GetCoins) | NS (Owner)
+Page 12 of 12
