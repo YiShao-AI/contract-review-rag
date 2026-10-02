@@ -1,5 +1,5 @@
 fastapi==0.141.1
-uvicorn[standard]==0.52.4
+uvicorn[standard]==0.54.0
 python-multipart==0.0.32
 openai==3.5.0
 faiss-cpu==1.15.0
